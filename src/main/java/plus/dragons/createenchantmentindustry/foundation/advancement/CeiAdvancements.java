@@ -107,6 +107,13 @@ public class CeiAdvancements {
             .frame(FrameType.GOAL)
             .parent(SPIRIT_TAKING)
             .build(),
+	WHERE_IS_MY_EXPERIENCE = ADVANCEMENT_FACTORY.builder("where_is_my_experience")
+			.title("Where is my Experience?")
+			.description("Get your experience stolen by the void")
+			.icon(AllBlocks.MECHANICAL_PUMP)
+			.announce(true)
+			.parent(A_SHOWER_EXPERIENCE)
+			.build(),
     EXPERIENCED_RECYCLER = ADVANCEMENT_FACTORY.builder("experienced_recycler")
             .title("Experienced Recycler")
             .description("Recycle 1,000,000 mB of experience from Disenchanter")
