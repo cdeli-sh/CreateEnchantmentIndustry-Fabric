@@ -36,14 +36,10 @@ jobs:
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           # Modrinth
-          modrinth-id: AEZO385x
-          modrinth-featured: true
+          modrinth-id: dqXDf3W6
+          modrinth-featured: false
           modrinth-unfeature-mode: subset
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-
-          # CurseForge
-          curseforge-id: 876129
-          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
 
           # Config
           name: "CEI Fabric ${{ env.VERSION }} for Create Fabric ${{ env.MINECRAFT_VERSION }}-${{ env.CREATE_VERSION }}"
